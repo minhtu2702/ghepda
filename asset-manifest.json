@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ghepda/static/css/main.ac340289.css",
-    "main.js": "/ghepda/static/js/main.0548d972.js",
+    "main.js": "/ghepda/static/js/main.3ae58d8f.js",
     "index.html": "/ghepda/index.html",
     "main.ac340289.css.map": "/ghepda/static/css/main.ac340289.css.map",
-    "main.0548d972.js.map": "/ghepda/static/js/main.0548d972.js.map"
+    "main.3ae58d8f.js.map": "/ghepda/static/js/main.3ae58d8f.js.map"
   },
   "entrypoints": [
     "static/css/main.ac340289.css",
-    "static/js/main.0548d972.js"
+    "static/js/main.3ae58d8f.js"
   ]
 }
