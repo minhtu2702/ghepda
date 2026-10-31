@@ -1,0 +1,138 @@
+/* Thiết lập các thẻ gốc và body */
+html, body, #root {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #e1e1e6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121214;
+}
+
+/* Header tùy chỉnh */
+.bg-dark, header, .navbar {
+  background: linear-gradient(135deg, #1f1f23 0%, #111115 100%) !important;
+  border-bottom: 1px solid #29292e;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Tiêu đề chính */
+h2.text-center {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #f3f3f5;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Khung Accordion bọc ngoài */
+.accordion {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  background-color: #1a1a1e !important;
+  border: 1px solid #2d2d35 !important;
+  border-radius: 12px !important;
+  margin-bottom: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.accordion-item:hover {
+  border-color: #3f3f46 !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Tiêu đề Accordion */
+.accordion-button {
+  background-color: #202024 !important;
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 18px 24px;
+  box-shadow: none !important;
+  transition: background-color 0.2s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #25252b !important;
+  border-bottom: 1px solid #2d2d35;
+}
+
+/* Nội dung bên trong Accordion */
+.accordion-body {
+  background-color: #16161a !important;
+  padding: 24px !important;
+}
+
+/* Hình ảnh hướng dẫn */
+.accordion-body img {
+  border-radius: 8px;
+  border: 1px solid #2d2d35;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  cursor: zoom-in;
+}
+
+.accordion-body img:hover {
+  opacity: 0.9;
+  transform: scale(1.01);
+}
+
+/* Nút bấm Copy Code: chữ đen dễ nhìn */
+.btn-primary, .btn-outline-primary, .btn-copy-code {
+  background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%) !important;
+  color: #000000 !important;
+  border: none !important;
+  font-weight: 700 !important;
+  padding: 10px 20px;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover, .btn-outline-primary:hover, .btn-copy-code:hover {
+  background: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 100%) !important;
+  color: #000000 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(56, 189, 248, 0.4);
+}
+
+/* Khi đã copy thành công */
+.btn-success.btn-copy-code {
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%) !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
+}
+
+/* Khung cố định ảnh 2 bên khi cuộn trang */
+.sticky-top-custom {
+  position: sticky;
+  top: 80px;
+  z-index: 10;
+}
+
+/* Ảnh trang trí 2 bên cố định cùng kích thước */
+.side-banner-img {
+  width: 210px;
+  height: 150px;
+  object-fit: contain;
+  background-color: #16161a;
+  border-radius: 12px;
+  border: 1px solid #2d2d35;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.side-banner-img:hover {
+  transform: translateY(-2px) scale(1.03);
+  border-color: #38bdf8;
+  box-shadow: 0 8px 24px rgba(56, 189, 248, 0.25);
+}
+
+/* Footer tối giản tinh tế */
+footer, .text-muted {
+  color: #94a3b8 !important;
+  font-size: 0.9rem;
+}

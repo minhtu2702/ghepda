@@ -1,18 +1,18 @@
 export const accordionData = [
-    {
-      id: "0",
-      title: "1. Lan + Hút lên Tím",
-      image: "/images/lanhutmixtim.jpg",
-      image_des: "Nhóm 0 gồm lan + hút, Nhóm 1 gồm STCM + NÉ + CX", // Mô tả ảnh
-      description: "Dùng để tự ghép đá trong nhóm lan và hút lên đá tím, dùng cho mấy cu thích ghép theo công thức 3 tím 5 đá thường. Tự ghép stcm né cx lên vàng, bật auto bán stcm né cx xanh tím để tắt",
-      code: 'ABZsYW4gaMO6dCBtaXggbMOqbiB0w61tAgACAWoA5AEDAOEA4gDjBAAZACMFiAAAiAAAiAAAiAAAiAAAAAgAAAiAAACAAACAAACBAACBAACBAACBAACBAAAAPAAABoEAAYEAAYEAAYEAAYEAAYEAAQSmAAAIigABigABigABigABiQABhQABgQABgQAB=='
-    },
-    {
-      id: "1",
-      title: "2. Lan + Hút lên Vàng",
-      image: "/images/lanhutmixvang.jpg",
-      image_des: "Nhóm 0 gồm lan + hút, Nhóm 1 gồm STCM + NÉ + CX", // Mô tả ảnh
-      description: "Dùng để tự ghép đá trong nhóm lan và hút lên đá vàng, rate 100% lan hoặc hút, dành cho mấy cu lười vcl (hơi tốn kc tí). Tự ghép stcm né cx lên vàng, bật auto bán stcm né cx xanh tím để tắt",
-      code: "ABdsYW4gaMO6dCBtaXggbMOqbiB2w6BuZwIAAgFqAOQBAwDhAOIA4wUAGQAjBYgAAIgAAIgAAIgAAIgAAAAIAAAIgAAAgAAAgAAAgQAAgQAAgQAAgQAAgQAAAH0A3AiOAACKAACOAACNAACJAACNAACJAACNAAAAPAAABoEAAYEAAYEAAYEAAYEAAYEAAQSmAAAIigABigABigABigABiQABhQABgQABgQAB"
-    }
-  ];
+  {
+    id: "0",
+    title: "1. Pờ Re Mi Um (Fix tối ưu lại từ code ghép gốc của Toán) (3 tím 5 xanh thường)",
+    image: "/ghepda/images/pre1.jpg",
+    image_des: "Nhóm 0 gồm lan hút phản độc băng lửa heal gió + tăng(tp + kc), Nhóm 1 gồm hp crit def tốc atk cx stcm né tăng vàng, Nhóm 2 gồm cx né stcm tăng vàng, Nhóm 3 gồm hp tốc crit atk def", // Mô tả ảnh
+    description: "Fix từ code ghép gốc của Toán, tối ưu tài nguyên để ghép đá. Đây là công thức 3 tím 5 xanh. Đã bao gồm ghép đá thường lên vàng",
+    code: "AAdQcmVtaXVtBAIEAOEA4gDjAWcACgFqAy4DgwPnBCoBaQFoBsQA5ADlAQkAQABBAEIARABFAOEA4gDjAWcDBQBAAEEAQgBEAEUQD6gAAAiCAACVAAGVAAGVAAGCAACVAAGVAAGCAAAEiAAACA4AQA4AQIoAA4kAA4kAA40AA40AA40AAwSIAAAIDgBBDgBBigADiQADiQADjQADjQADjQADBIgAAAgOAEIOAEKKAAOJAAOJAAONAAONAAONAAMEiAAACA4ARA4ARIoAA4kAA4kAA40AA40AA40AAwSIAAAIDgBFDgBFigADiQADiQADjQADjQADjQADCQwAAAgOAOEOAOGKAAKJAAKNAAKNAAKNAAKJAAIJDAAACA4A4g4A4ooAAokAAo0AAo0AAo0AAokAAgkMAAAIDgDjDgDjigACiQACjQACjQACjQACiQACADwAAAaBAAGBAAGBAAGBAAGBAAGBAAEA1wAABYgAA4gAA4gAA4gAA4gAAwAZACMFiAAAiAAAiAAAiAAAiAAAAAgAAAiAAACAAACAAACBAACBAACBAACBAACBAAABqQAABYgAAYgAAYgAAYgAAYgAAQkMAAAIDgFnDgFnigACjQACjQACjQACiQACiQACAAYAAAaBAACBAACBAACBAACBAACBAAA="
+  },
+  {
+    id: "1",
+    title: "2. Pờ Re Mi Um V2 (Fix tối ưu lại từ code ghép gốc của Toán) (100% đá vàng hiếm (hơi tốn kc))",
+    image: "/ghepda/images/pre2.jpg",
+    image_des: "Nhóm 0 gồm lan hút phản độc băng lửa heal gió + tăng(tp + kc), Nhóm 1 gồm hp crit def tốc atk cx stcm né tăng vàng, Nhóm 2 gồm cx né stcm tăng vàng, Nhóm 3 gồm hp tốc crit atk def", // Mô tả ảnh
+    description: "Fix từ code ghép gốc của Toán, tối ưu tài nguyên để ghép đá. Ghép 100% đá vàng hiếm (hơi tốn kc). Đã bao gồm ghép đá thường lên vàng",
+    code: "AAlQcmVtaXVtVjIEAgQA4QDiAOMBZwAKAWoDLgODA+cEKgFpAWgGxADkAOUBCQBAAEEAQgBEAEUA4QDiAOMBZwMFAEAAQQBCAEQARRAEiAAACA4AQA4AQIoAA4kAA4kAA40AA40AA40AAwSIAAAIDgBBDgBBigADiQADiQADjQADjQADjQADBIgAAAgOAEIOAEKKAAOJAAOJAAONAAONAAONAAMEiAAACA4ARA4ARIoAA4kAA4kAA40AA40AA40AAwSIAAAIDgBFDgBFigADiQADiQADjQADjQADjQADCQwAAAgOAOEOAOGKAAKJAAKNAAKNAAKNAAKJAAIJDAAACA4A4g4A4ooAAokAAo0AAo0AAo0AAokAAgkMAAAIDgDjDgDjigACiQACjQACjQACjQACiQACADwAAAaBAAGBAAGBAAGBAAGBAAGBAAEA1wAABYgAA4gAA4gAA4gAA4gAAwAZACMFiAAAiAAAiAAAiAAAiAAAAAgAAAiAAACAAACAAACBAACBAACBAACBAACBAAABqQAABYgAAYgAAYgAAYgAAYgAAQkMAAAIDgFnDgFnigACjQACjQACjQACiQACiQACAH0A3AiOAACOAACKAACNAACNAACNAACJAACJAAAABgAABoEAAIEAAIEAAIEAAIEAAIEAAA=="
+  },
+];
